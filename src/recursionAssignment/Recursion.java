@@ -1,9 +1,20 @@
 package recursionAssignment;
 
+/**
+* The code is about my recursion assignment, and I feel so sorry about the late submition.
+* Three parts in total, problem set one, problem set two and problem set three
+* @author: Zyaire, Qu
+*/
+
 public class Recursion{
-//problem set 1
-//CODEHI
-//Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
+
+  /**
+  * This is problem set one, to count how many his in total in a string
+  * Return the number
+  * Recursion will keep calling the next two index to check if there is a hi
+  * @author: Zyaire, Qu
+  */
+
   public static int countHi(String str){
     if(str.length() < 2) {
       return 0;
@@ -17,7 +28,14 @@ public class Recursion{
     // if the string length >2 but there is no hi in first two index, move forward by one to check. so ther is no return values.
   }
 
-  //prob set 2
+  /**
+  * This is problem set two, to change any pi to 3.14 in a string
+  * Return a string
+  * Recursion will keep calling the next two index to check if there is a pi and change it to 3.14
+  * if the first two chars does not have a pi, then return the first char + call the next indexs
+  * @author: Zyaire, Qu
+  */
+
   public static String changePi(String str){
     if (str.length() < 2){
       // base case, if the length < 2 no way there is a pi
@@ -32,8 +50,13 @@ public class Recursion{
     // if not, return the char at index 0, keep searching pi XD
   }
 
+  /**
+  * This is problem set three, to check the values in array
+  * Return a boolean
+  * Recursion will keep calling the next one index to check if there is a right answer
+  * @author: Zyaire, Qu
+  */
 
-  //prob set 3
   public static boolean array220(int[] intNums, int index){
     if (index >= intNums.length - 1){
       // there is no way that a true comes out when index is greater than length - 1
