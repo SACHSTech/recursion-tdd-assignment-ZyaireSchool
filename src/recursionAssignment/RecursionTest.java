@@ -92,6 +92,16 @@ public class RecursionTest{
         //first red test
     }
 
+    @Test
+    public void Test15(){
+        assertEquals(true, Recursion.array220(new int[]{3, 30}, 0));
+    }
+
+    @Test
+    public void Test16(){
+        assertEquals(false, Recursion.array220(new int[]{3}, 0));
+    }
+
     // add more tests
     
     @After
