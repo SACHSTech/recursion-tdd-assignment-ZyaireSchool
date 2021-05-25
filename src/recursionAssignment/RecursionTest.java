@@ -92,10 +92,7 @@ public class RecursionTest{
         //first red test
     }
 
-     @Test
-    public void Test15(){
-        assertEquals(true, Recursion.array220(new int[]{}, 0));
-    }
+    
 
     // add more tests
     
