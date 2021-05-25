@@ -26,8 +26,9 @@ public class Recursion{
     }else if(str.charAt(0) == 'p' && str.charAt(1) == 'i'){
       //check if there is pi
       return "3.14" + changePi(str.substring(2));
-      //if yes, print the 3.14 and continue check
+      //if yes, print the 3.14 and continue check by subbing string from index 2
     }
     return str.charAt(0) + changePi(str.substring(1));
+    //if not, return the char at index 0, keep searching pi XD
   }
 }
