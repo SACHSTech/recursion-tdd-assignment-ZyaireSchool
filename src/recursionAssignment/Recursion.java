@@ -35,6 +35,9 @@ public class Recursion{
 
   //prob set 3
   public static boolean array220(int[] intNums, int index){
-    
+    if (intNums[index+1] == intNums[index] * 10){
+      return true;
+    }
+    return array220(intNums, index+1);
   }
 }
