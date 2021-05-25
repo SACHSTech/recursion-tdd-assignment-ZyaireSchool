@@ -16,4 +16,12 @@ public class Recursion{
     return countHi(str.substring(1));
     //if the string length >2 but there is no hi in first two index, move forward by one to check. so ther is no return values.
   }
+
+  public static String changePi(String str){
+    if (str.equals("") || str.length() < 2){
+      //base case, if the length < 2, no way there is a pi
+      return str;
+      //so just return the string
+    } 
+  }
 }

@@ -55,11 +55,18 @@ public class RecursionTest{
         assertEquals(1, Recursion.countHi("hi"));
     }
     
+    //from now on that is problem set 2
+    @Test
+    public void Test8(){
+      //first test, red test
+        assertEquals("x3.14x", Recursion.countHi("xpix"));
+    }
     // add more tests
     
     @After
     public void afterTest(){
       // some steps to perform after tests are run
+      assertEquals("x3.14x", Recursion.changePi("xpix"));
     }
     
     
