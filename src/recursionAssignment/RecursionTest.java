@@ -54,12 +54,20 @@ public class RecursionTest{
     public void Test7(){
         assertEquals(1, Recursion.countHi("hi"));
     }
+    @Test
+    public void Test8(){
+        assertEquals(0, Recursion.countHi("h"));
+    }
+    @Test
+    public void Test9(){
+        assertEquals(0, Recursion.countHi(" "));
+    }
     
     //from now on that is problem set 2
     @Test
-    public void Test8(){
+    public void Test10(){
       //first test, red test
-        assertEquals("x3.14x", Recursion.countHi("xpix"));
+        assertEquals("x3.14x", Recursion.changePi("xpix"));
     }
     // add more tests
     
