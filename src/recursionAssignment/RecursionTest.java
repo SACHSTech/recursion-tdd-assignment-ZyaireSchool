@@ -72,20 +72,23 @@ public class RecursionTest{
 
     @Test
     public void Test11(){
-      //first test, red test
         assertEquals("3.143.14", Recursion.changePi("pipi"));
     }
 
     @Test
     public void Test12(){
-      //first test, red test
         assertEquals("3.14p", Recursion.changePi("pip"));
     }
 
     @Test
     public void Test13(){
-      //first test, red test
         assertEquals(" ", Recursion.changePi(" "));
+    }
+
+    //problem set 3
+    @Test
+    public void Test14(){
+        assertEquals(" ", Recursion.array220(new int[]{1, 2, 20}, 0));
     }
 
     // add more tests
