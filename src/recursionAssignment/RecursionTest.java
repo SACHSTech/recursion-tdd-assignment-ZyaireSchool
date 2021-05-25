@@ -88,7 +88,13 @@ public class RecursionTest{
     //problem set 3
     @Test
     public void Test14(){
-        assertEquals(true, strCopies("catcowcat", "cat", 2));
+        assertEquals(true, Recursion.array220(new int[]{1, 2, 20}, 0));
+        //first red test
+    }
+
+     @Test
+    public void Test15(){
+        assertEquals(true, Recursion.array220(new int[]{}, 0));
     }
 
     // add more tests
